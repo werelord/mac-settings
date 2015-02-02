@@ -85,3 +85,6 @@ for app in Safari Finder Dock Mail; do killall "$app"; done
 
 echo "Fix for the ancient UTF-8 bug in QuickLook (http://mths.be/bbo)"
 echo "0x08000100:0" > ~/.CFUserTextEncoding
+
+echo "disable mac startup/shutdown sounds"
+nvram SystemAudioVolume=%80
