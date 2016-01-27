@@ -88,3 +88,6 @@ echo "0x08000100:0" > ~/.CFUserTextEncoding
 
 echo "disable mac startup/shutdown sounds"
 nvram SystemAudioVolume=%80
+
+echo "finder show all files"
+defaults write com.apple.finder AppleShowAllFiles YES
