@@ -91,3 +91,6 @@ nvram SystemAudioVolume=%80
 
 echo "finder show all files"
 defaults write com.apple.finder AppleShowAllFiles YES
+
+echo "disable Photos from opening when plugging in a device"
+defaults write com.apple.ImageCapture disableHotPlug -bool true
