@@ -1,0 +1,8 @@
+{
+    "\UF729"  = "moveToBeginningOfLine:";   // home
+    "\UF72B"  = "moveToEndOfLine:";         // end
+    "$\UF729" = "moveToBeginningOfLineAndModifySelection:"; // shift-home
+    "$\UF72B" = "moveToEndOfLineAndModifySelection:";   // shift-end
+    "^\UF703" = ("moveWordForward:", "moveWordForward:", "moveWordBackward:");
+    "^$\UF703" = ("moveWordForwardAndModifySelection:", "moveWordForwardAndModifySelection:", "moveWordBackwardAndModifySelection:");
+}
